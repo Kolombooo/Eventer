@@ -1,0 +1,6 @@
+name: Eventer
+version: '${project.version}'
+main: me.kolombo.eventer.Eventer
+api-version: 1.19
+authors: [ Kolombo ]
+description: Create server Events with GUIs
