@@ -4,9 +4,13 @@
 
 config-version: 1.0.0
 
+# Determines what prefix will be used in the console to output messages
+# Include the space before the message
+prefix: "Eventer ⪼ "
+
 # Determines wheater the plugin is serverbased or worldbased
 # Values: world, server
-event-base: server
+event-base: "server"
 
 # What world should be used if the plugin is worldbased
 # Multiverse plugin required

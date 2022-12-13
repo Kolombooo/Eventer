@@ -6,7 +6,7 @@
 
     <groupId>me.kolombo</groupId>
     <artifactId>Eventer</artifactId>
-    <version>alpha.0.0.0.1</version>
+    <version>alpha.0.0.0.4</version>
     <packaging>jar</packaging>
 
     <name>Eventer</name>
