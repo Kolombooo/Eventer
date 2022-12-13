@@ -1,0 +1,38 @@
+# CONFIGURATION
+#
+# Author: Kolombo
+
+config-version: 1.0.0
+
+# Determines wheater the plugin is serverbased or worldbased
+# Values: world, server
+event-base: server
+
+# What world should be used if the plugin is worldbased
+# Multiverse plugin required
+event-world: ""
+
+# - Idle lobby
+
+waitroom:
+  world: ""
+  x: 0
+  y: 100
+  z: 0
+
+# - Moderators
+
+moderator-permission: "moderator" # Final value: "eventer.XXX"
+
+modules:
+  blockchat:
+    enable: true
+    admin: false
+  potions:
+    enable: true
+    admin: false
+  eventban:
+    enable: true
+    admin: true
+
+debug: false
